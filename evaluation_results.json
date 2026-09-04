@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "question": "What is Microsoft Azure?",
+        "expected_type": "answerable",
+        "answer": "Microsoft Azure is an enterprise-grade cloud platform used by 95% of Fortune 500 companies and many governments worldwide [Document 1]. It is the only cloud offering a true end-to-end analytics solution with unlimited concurrency, mature security, and insight-delivery in seconds from any enterprise data source [Document 1].",
+        "answerability_passed": true,
+        "citation_passed": true
+    },
+    {
+        "id": 2,
+        "question": "What is Azure Cosmos DB?",
+        "expected_type": "answerable",
+        "answer": "Azure Cosmos DB is a fully managed, globally distributed NoSQL database service that supports multiple data models (key/value, graph, document) and APIs (SQL, MongoDB, Gremlin, Cassandra) [Document 1]. It offers five levels of data consistency that trade performance for guarantees, including Strong, Bounded Staleness, Session, Consistent Prefix, and Eventual [Document 2]. Additionally, it provides features such as turnkey global distribution, 99.999% SLA for availability, and elastic and unlimited scalability [Document 5].",
+        "answerability_passed": true,
+        "citation_passed": true
+    },
+    {
+        "id": 3,
+        "question": "What percentage of Fortune 500 companies use Azure?",
+        "expected_type": "answerable",
+        "answer": "According to [Document 1], Azure is used by 95% of Fortune 500 companies.",
+        "answerability_passed": true,
+        "citation_passed": true
+    },
+    {
+        "id": 4,
+        "question": "What services does Microsoft Azure provide?",
+        "expected_type": "answerable",
+        "answer": "Microsoft Azure provides a wide range of services, including:\n\n* Azure SQL Database and Azure Cosmos DB for operational data stores and custom web/app experiences [Document 1]\n* Azure Functions for pushing data directly to apps via serverless custom APIs [Document 1]\n* Azure Machine Learning Studio for serving ML model predictions to downstream consumers [Document 1]\n* Azure Active Directory for authentication and role-based access control (RBAC) [Document 2]\n* Azure Key Vault for securely storing data [Document 2]\n* Azure Event Hubs for ingesting millions of events, detecting anomalies, and automating actions [Document 3]\n* Azure Cognitive Services for pre-built AI models available via simple HTTP API [Document 3]\n* Azure Import/Export Service for massive data migration [Document 4]\n* ML Services for managing ML experiments, datasets, model versioning, and image creation [Document 5]\n* Azure Cosmos DB for storing curated data [Document 5]\n* Power BI for reports and dashboards [Document 5]\n* Azure Container Registry for hosting Docker images of ML models [Document 5]\n* Azure Kubernetes Service (AKS) for running ML model pods as consumable APIs [Document 5]\n\nNote that these services are mentioned across multiple documents, but I have only cited each document once to avoid repetition.",
+        "answerability_passed": true,
+        "citation_passed": true
+    },
+    {
+        "id": 5,
+        "question": "Who is the president of the United States?",
+        "expected_type": "unanswerable",
+        "answer": "I couldn't find the answer in the provided documents.",
+        "answerability_passed": true,
+        "citation_passed": true
+    },
+    {
+        "id": 6,
+        "question": "What is the capital of France?",
+        "expected_type": "unanswerable",
+        "answer": "I couldn't find the answer in the provided documents.",
+        "answerability_passed": true,
+        "citation_passed": true
+    },
+    {
+        "id": 7,
+        "question": "What database service is mentioned in the documents?",
+        "expected_type": "answerable",
+        "answer": "According to the documents, the following database services are mentioned:\n\n* Azure SQL Database [Document 2]\n* Azure Cosmos DB [Document 3]\n* Azure Synapse Analytics [Document 1]\n* Azure Blob Storage [Document 1]\n\nThese services are mentioned as part of the Data Storage Service Best For section in [Document 1].",
+        "answerability_passed": true,
+        "citation_passed": true
+    },
+    {
+        "id": 8,
+        "question": "What cloud platform is discussed in the documents?",
+        "expected_type": "answerable",
+        "answer": "The cloud platform discussed in the documents is Azure. This is mentioned in [Document 5] as \"Azure is an enterprise-grade cloud platform used by 95% of Fortune 500 companies and many governments worldwide.\"",
+        "answerability_passed": true,
+        "citation_passed": true
+    }
+]

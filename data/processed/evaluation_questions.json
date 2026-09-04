@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "question": "What is Microsoft Azure?",
+        "expected_type": "answerable"
+    },
+    {
+        "id": 2,
+        "question": "What is Azure Cosmos DB?",
+        "expected_type": "answerable"
+    },
+    {
+        "id": 3,
+        "question": "What percentage of Fortune 500 companies use Azure?",
+        "expected_type": "answerable"
+    },
+    {
+        "id": 4,
+        "question": "What services does Microsoft Azure provide?",
+        "expected_type": "answerable"
+    },
+    {
+        "id": 5,
+        "question": "Who is the president of the United States?",
+        "expected_type": "unanswerable"
+    },
+    {
+        "id": 6,
+        "question": "What is the capital of France?",
+        "expected_type": "unanswerable"
+    },
+    {
+        "id": 7,
+        "question": "What database service is mentioned in the documents?",
+        "expected_type": "answerable"
+    },
+    {
+        "id": 8,
+        "question": "What cloud platform is discussed in the documents?",
+        "expected_type": "answerable"
+    }
+]
