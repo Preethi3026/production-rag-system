@@ -23,6 +23,7 @@ def test_resources_load(resources):
     assert index.ntotal == 121
 
 
+@pytest.mark.ollama
 def test_ollama_connection():
     response = rag_module.ollama_client.list()
 
@@ -547,6 +548,7 @@ def test_conversation_history_does_not_contaminate_retrieval(
     )
 
 
+@pytest.mark.ollama
 def test_generate_answer():
     answer = generate_answer(
         "What are the 5 Vs of Big Data?",
@@ -683,3 +685,4 @@ def test_validate_citations():
         "Azure is a cloud platform [Document 2].",
         1,
     )
+
